@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T10:56:47.526Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="A4uMqA2TWeJ2lXbhColK" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-18T16:51:34.487Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="_NTE8ASqoabL5-9S0tV7" version="21.6.2" type="github">
   <diagram name="第 1 页" id="B6qd8catO7FMBXxrSw1s">
-    <mxGraphModel dx="1900" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1043" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -196,7 +196,7 @@
           <mxGeometry x="1580" y="100" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6RJpy6Lxpm3qYfepnzHD-88" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="17.5" width="280" height="210" as="geometry" />
+          <mxGeometry x="1700" y="17.5" width="280" height="222.5" as="geometry" />
         </mxCell>
         <mxCell id="6RJpy6Lxpm3qYfepnzHD-89" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -212,33 +212,43 @@
           <mxGeometry x="1720" y="46.25" width="50" height="142.5" as="geometry" />
         </mxCell>
         <mxCell id="6RJpy6Lxpm3qYfepnzHD-117" value="类加载器" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="30" width="150" height="190" as="geometry" />
+          <mxGeometry x="1770" y="30" width="150" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="6RJpy6Lxpm3qYfepnzHD-120" value="扩展类加载器" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=16;" vertex="1" parent="6RJpy6Lxpm3qYfepnzHD-117">
-          <mxGeometry x="10" y="33" width="130" height="30" as="geometry" />
+        <mxCell id="6RJpy6Lxpm3qYfepnzHD-217" value="扩展类加载器" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=16;" vertex="1" parent="6RJpy6Lxpm3qYfepnzHD-117">
+          <mxGeometry x="10" y="70" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6RJpy6Lxpm3qYfepnzHD-119" value="根加载器" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=16;" vertex="1" parent="6RJpy6Lxpm3qYfepnzHD-117">
-          <mxGeometry x="10" y="70" width="130" height="27" as="geometry" />
+          <mxGeometry x="10" y="30" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6RJpy6Lxpm3qYfepnzHD-118" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="6RJpy6Lxpm3qYfepnzHD-117" source="6RJpy6Lxpm3qYfepnzHD-119" target="6RJpy6Lxpm3qYfepnzHD-120">
+        <mxCell id="6RJpy6Lxpm3qYfepnzHD-219" style="edgeStyle=elbowEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="6RJpy6Lxpm3qYfepnzHD-117" source="6RJpy6Lxpm3qYfepnzHD-217" target="6RJpy6Lxpm3qYfepnzHD-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6RJpy6Lxpm3qYfepnzHD-140" style="edgeStyle=elbowEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="6RJpy6Lxpm3qYfepnzHD-117" source="6RJpy6Lxpm3qYfepnzHD-136" target="6RJpy6Lxpm3qYfepnzHD-119">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="6RJpy6Lxpm3qYfepnzHD-220" style="edgeStyle=elbowEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;fontSize=12;startSize=8;endSize=8;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="6RJpy6Lxpm3qYfepnzHD-117" source="6RJpy6Lxpm3qYfepnzHD-217" target="6RJpy6Lxpm3qYfepnzHD-217">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <UserObject label="应用程序加载器" treeRoot="1" id="6RJpy6Lxpm3qYfepnzHD-136">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=16;" vertex="1" parent="6RJpy6Lxpm3qYfepnzHD-117">
-            <mxGeometry x="10" y="110" width="130" height="25" as="geometry" />
+            <mxGeometry x="10" y="110" width="130" height="35" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="6RJpy6Lxpm3qYfepnzHD-138" style="edgeStyle=elbowEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="6RJpy6Lxpm3qYfepnzHD-117" source="6RJpy6Lxpm3qYfepnzHD-137" target="6RJpy6Lxpm3qYfepnzHD-136">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="6RJpy6Lxpm3qYfepnzHD-223" value="" style="edgeStyle=elbowEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6RJpy6Lxpm3qYfepnzHD-117" source="6RJpy6Lxpm3qYfepnzHD-217" target="6RJpy6Lxpm3qYfepnzHD-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="100" as="sourcePoint" />
+            <mxPoint x="110" y="120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <UserObject label="自带加载器" treeRoot="1" id="6RJpy6Lxpm3qYfepnzHD-137">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=16;" vertex="1" parent="6RJpy6Lxpm3qYfepnzHD-117">
-            <mxGeometry x="10" y="150" width="130" height="27" as="geometry" />
+            <mxGeometry x="10" y="156.5" width="130" height="33.5" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="6RJpy6Lxpm3qYfepnzHD-224" style="edgeStyle=elbowEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="6RJpy6Lxpm3qYfepnzHD-117" source="6RJpy6Lxpm3qYfepnzHD-137" target="6RJpy6Lxpm3qYfepnzHD-136">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6RJpy6Lxpm3qYfepnzHD-143" value="为保证源码的安全" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1580" y="5" width="90" height="30" as="geometry" />
         </mxCell>
@@ -447,6 +457,9 @@
         </mxCell>
         <mxCell id="6RJpy6Lxpm3qYfepnzHD-210" value="幸存区满发生重GC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="1386.5" y="690" width="162" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6RJpy6Lxpm3qYfepnzHD-213" value="元空间，逻辑上存在，物理上不存在" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=16;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="940.5" y="575.5" width="162" height="89" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
